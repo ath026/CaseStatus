@@ -23,7 +23,8 @@ public class BaseTestCase {
 	
 	
 	@AfterTest	
-	public void Teardown() {		
+	public void Teardown() {
+		System.out.println(text);
 		driver.quit();
 		s.sendtext(text);
 		
