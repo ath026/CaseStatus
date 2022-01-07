@@ -9,7 +9,7 @@ public class BaseTestCase {
 	
 	public WebDriver driver;
 	public String text="";
-//	SmsSender s= new SmsSender();
+	SmsSender s= new SmsSender();
 	@BeforeTest
 	public void setup() {
 		
@@ -26,7 +26,7 @@ public class BaseTestCase {
 	public void Teardown() {
 		System.out.println(text);
 		driver.quit();
-//		s.sendtext(text);
+		s.sendtext(text);
 		
 	}
 }
