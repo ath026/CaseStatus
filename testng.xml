@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.caseStatus.testCases.checkAsylum"/>
+      <class name="com.caseStatus.testCases.CheckProcessingStatus"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
