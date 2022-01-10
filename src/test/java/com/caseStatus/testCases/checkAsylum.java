@@ -17,7 +17,7 @@ public class checkAsylum extends BaseTestCase {
 		CaseStatusLanding landing=new CaseStatusLanding(driver);
 		landing.receiptInputBox.sendKeys("ZSF1500101050");
 		landing.checkStatus.click();		
-		System.out.println(landing.result.getText());
+		
 		text+="***************I-589*******************\n";
 		text+=landing.result.getText()+"\n\n";
 	
@@ -40,8 +40,7 @@ public class checkAsylum extends BaseTestCase {
 	}
 	
 
-	@Test
-	
+	@Test	
 	public void checkCaseProcessingTimes() {
 		driver.navigate().to("https://egov.uscis.gov/processing-times/");
 		ProcessingTimesPage ptp=new ProcessingTimesPage(driver);
