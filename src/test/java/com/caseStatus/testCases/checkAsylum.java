@@ -39,6 +39,7 @@ public class checkAsylum extends BaseTestCase {
 		text+=landing.result.getText()+"\n\n";
 	}
 	
+
 	@Test
 	
 	public void checkCaseProcessingTimes() {
@@ -55,8 +56,8 @@ public class checkAsylum extends BaseTestCase {
 		String running=ptp.runningdate.getText();
 		text+="*****Potomac Processing***************\n";
 		text+="Based on a pending asylum: "+running+"\n\n";
+		driver.navigate().to("https://egov.uscis.gov/casestatus/landing.do");
 	}
-	
 	
 
 }
