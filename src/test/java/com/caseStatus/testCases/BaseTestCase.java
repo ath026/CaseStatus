@@ -15,7 +15,7 @@ public class BaseTestCase {
 	@BeforeTest
 	public void setup() {
 		
-		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		driver.get("https://egov.uscis.gov/casestatus/landing.do");
