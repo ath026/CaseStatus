@@ -1,6 +1,5 @@
 package com.caseStatus.testCases;
 
-import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -15,10 +14,16 @@ public class BaseTestCase {
 	SmsSender s= new SmsSender();
 	@BeforeTest
 	public void setup() {
-		
-		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
+	/*
+	 *When Running script on linux , set driver to chromedriver instead of chromedriver.exe
+	 */
+
+		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+/* For setting chromedriver binary file permission when running in linux
 		File file = new File("./Driver/chromedriver");
 		file.setExecutable(true);
+ 
+*/
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		driver.get("https://egov.uscis.gov/casestatus/landing.do");
