@@ -1,5 +1,6 @@
 package com.caseStatus.testCases;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,8 @@ public class BaseTestCase {
 	public void setup() {
 		
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
+		File file = new File("./Driver/chromedriver");
+		file.setExecutable(true);
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		driver.get("https://egov.uscis.gov/casestatus/landing.do");
