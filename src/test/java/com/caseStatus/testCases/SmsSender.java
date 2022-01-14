@@ -12,16 +12,19 @@ public class SmsSender {
 
     public void sendtext(String msg) {
     	
+    	System.out.println(ACCOUNT_SID.length());
+    	System.out.println(AUTH_TOKEN.length());
+
     	System.out.println("ACCOUNT_SID:"+ACCOUNT_SID+":END");
     	System.out.println("AUTH_TOKEN:"+ AUTH_TOKEN+":END");
-        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-
-        Message message = Message
-                .creator(new PhoneNumber("+13184369326"), // to
-                        new PhoneNumber("+17744692483"), // from
-                        msg)
-                .create();
-
-        System.out.println(message.getSid());
+//        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+//
+//        Message message = Message
+//                .creator(new PhoneNumber("+13184369326"), // to
+//                        new PhoneNumber("+17744692483"), // from
+//                        msg)
+//                .create();
+//
+//        System.out.println(message.getSid());
     }
 }
