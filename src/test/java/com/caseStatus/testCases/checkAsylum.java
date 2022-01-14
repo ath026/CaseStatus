@@ -10,7 +10,7 @@ import com.caseStatus.pageObjects.ProcessingTimesPage;
 
 public class checkAsylum extends BaseTestCase {
 	
-	
+	/*
 	
 	@Test
 	public void checkAsyStatus() {
@@ -57,6 +57,10 @@ public class checkAsylum extends BaseTestCase {
 		text+="Based on a pending asylum: "+running+"\n\n";
 		driver.navigate().to("https://egov.uscis.gov/casestatus/landing.do");
 	}
-	
+	*/
+	@Test
+	public void testSMS() {
+		System.out.println("Running SMS test");
+	}
 
 }
