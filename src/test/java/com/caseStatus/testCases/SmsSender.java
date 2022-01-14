@@ -11,6 +11,14 @@ public class SmsSender {
 	  
 
     public void sendtext(String msg) {
+    	System.out.println("Before Strip");
+    	System.out.println(ACCOUNT_SID.length());
+    	System.out.println(AUTH_TOKEN.length());
+    	
+    	ACCOUNT_SID.strip();
+    	AUTH_TOKEN.strip();
+    	
+    	System.out.println("After Strip");
     	
     	System.out.println(ACCOUNT_SID.length());
     	System.out.println(AUTH_TOKEN.length());
