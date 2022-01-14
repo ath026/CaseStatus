@@ -8,11 +8,11 @@ public class SmsSender {
 	public static final String ACCOUNT_SID =System.getenv("account_sid");
     public static final String AUTH_TOKEN =System.getenv("auth_token");    
     
-
+	  
 
     public void sendtext(String msg) {
     	
-    	System.out.println("ACCOUNT_SID: "+ACCOUNT_SID);
+    	System.out.println("ACCOUNT_SID:"+ACCOUNT_SID+":END");
     	System.out.println("AUTH_TOKEN:"+ AUTH_TOKEN);
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 

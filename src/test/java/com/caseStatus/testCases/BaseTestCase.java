@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 public class BaseTestCase {
 	
 	public WebDriver driver;
-	public String text="";
+	public String text="Hello";
 	SmsSender s= new SmsSender();
 	@BeforeTest
 	public void setup() {

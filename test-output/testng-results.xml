@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-10T10:12:50 CST" name="Suite" finished-at="2022-01-10T10:13:04 CST" duration-ms="14229">
+  <suite started-at="2022-01-14T11:59:33 CST" name="Default suite" finished-at="2022-01-14T11:59:43 CST" duration-ms="10361">
     <groups>
     </groups>
-    <test started-at="2022-01-10T10:12:50 CST" name="Test" finished-at="2022-01-10T10:13:04 CST" duration-ms="14229">
+    <test started-at="2022-01-14T11:59:33 CST" name="Default test" finished-at="2022-01-14T11:59:43 CST" duration-ms="10361">
       <class name="com.caseStatus.testCases.checkAsylum">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-01-10T10:12:50 CST" name="setup" finished-at="2022-01-10T10:12:54 CST" duration-ms="3651" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStatus.testCases.checkAsylum@2e4b8173]" started-at="2022-01-14T11:59:33 CST" name="setup" finished-at="2022-01-14T11:59:39 CST" duration-ms="6821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkAsyStatus()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-01-10T10:12:54 CST" name="checkAsyStatus" finished-at="2022-01-10T10:12:55 CST" duration-ms="1259" status="PASS">
+        <test-method signature="testSMS()[pri:0, instance:com.caseStatus.testCases.checkAsylum@2e4b8173]" started-at="2022-01-14T11:59:39 CST" name="testSMS" finished-at="2022-01-14T11:59:39 CST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkAsyStatus -->
-        <test-method signature="checkCaseProcessingTimes()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-01-10T10:12:55 CST" name="checkCaseProcessingTimes" finished-at="2022-01-10T10:13:01 CST" duration-ms="5374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCaseProcessingTimes -->
-        <test-method signature="checkEadstatus()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-01-10T10:13:01 CST" name="checkEadstatus" finished-at="2022-01-10T10:13:02 CST" duration-ms="995" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkEadstatus -->
-        <test-method signature="checkTpsstatus()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-01-10T10:13:02 CST" name="checkTpsstatus" finished-at="2022-01-10T10:13:03 CST" duration-ms="926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkTpsstatus -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-01-10T10:13:03 CST" name="Teardown" finished-at="2022-01-10T10:13:04 CST" duration-ms="1919" status="PASS">
+        </test-method> <!-- testSMS -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.caseStatus.testCases.checkAsylum@2e4b8173]" started-at="2022-01-14T11:59:40 CST" name="Teardown" finished-at="2022-01-14T11:59:43 CST" duration-ms="3444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- com.caseStatus.testCases.checkAsylum -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
