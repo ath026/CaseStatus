@@ -13,7 +13,7 @@ public class SmsSender {
     public void sendtext(String msg) {
     	
     	System.out.println("ACCOUNT_SID:"+ACCOUNT_SID+":END");
-    	System.out.println("AUTH_TOKEN:"+ AUTH_TOKEN);
+    	System.out.println("AUTH_TOKEN:"+ AUTH_TOKEN+":END");
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
         Message message = Message
