@@ -5,8 +5,8 @@ import com.twilio.type.PhoneNumber;
 public class SmsSender {
 	// Find your Account Sid and Auth Token at twilio.com/console
 	
-	public static final String ACCOUNT_SID =System.getenv("account_sid");
-    public static final String AUTH_TOKEN =System.getenv("auth_token");    
+	public static String ACCOUNT_SID =System.getenv("account_sid");
+    public static String AUTH_TOKEN =System.getenv("auth_token");    
     
 	  
 
@@ -15,8 +15,8 @@ public class SmsSender {
     	System.out.println(ACCOUNT_SID.length());
     	System.out.println(AUTH_TOKEN.length());
     	
-    	ACCOUNT_SID.strip();
-    	AUTH_TOKEN.strip();
+    	ACCOUNT_SID=ACCOUNT_SID.strip();
+    	AUTH_TOKEN=AUTH_TOKEN.strip();
     	
     	System.out.println("After Strip");
     	
