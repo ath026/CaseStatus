@@ -5,26 +5,18 @@ import com.twilio.type.PhoneNumber;
 public class SmsSender {
 	// Find your Account Sid and Auth Token at twilio.com/console
 	
-	public static String ACCOUNT_SID =System.getenv("account_sid");
-    public static String AUTH_TOKEN =System.getenv("auth_token");    
+	public static final String ACCOUNT_SID =System.getenv("account_sid");
+    public static final String AUTH_TOKEN =System.getenv("auth_token");    
     
 	  
 
     public void sendtext(String msg) {
-    	System.out.println("Before Strip");
-    	System.out.println(ACCOUNT_SID.length());
-    	System.out.println(AUTH_TOKEN.length());
-    	
-    	ACCOUNT_SID=ACCOUNT_SID.strip();
-    	AUTH_TOKEN=AUTH_TOKEN.strip();
-    	
-    	System.out.println("After Strip");
     	
     	System.out.println(ACCOUNT_SID.length());
     	System.out.println(AUTH_TOKEN.length());
-
-    	System.out.println("ACCOUNT_SID:"+ACCOUNT_SID+":END");
-    	System.out.println("AUTH_TOKEN:"+ AUTH_TOKEN+":END");
+    
+    	System.out.println("ACCOUNT_SID:"+ACCOUNT_SID+":");
+    	System.out.println("AUTH_TOKEN:"+ AUTH_TOKEN+":");
 //        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 //
 //        Message message = Message
