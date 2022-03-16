@@ -22,7 +22,7 @@ public class checkAsylum extends BaseTestCase {
 		text+=landing.result.getText()+"\n\n";
 	
 	}
-	@Test
+	@Test(enabled=false)
 	public void checkTpsstatus() {
 		CaseStatusLanding landing=new CaseStatusLanding(driver);
 		landing.receiptInputBox.sendKeys("IOE0913178311");
