@@ -40,7 +40,7 @@ public class checkAsylum extends BaseTestCase {
 	}
 	
 
-	@Test	
+	@Test	(enabled=false)
 	public void checkCaseProcessingTimes() {
 		driver.navigate().to("https://egov.uscis.gov/processing-times/");
 		ProcessingTimesPage ptp=new ProcessingTimesPage(driver);
