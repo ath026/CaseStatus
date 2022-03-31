@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.caseStatus.pageObjects.CaseStatusLanding;
 import com.caseStatus.pageObjects.ProcessingTimesPage;
 
-public class checkAsylum extends BaseTestCase {
+public class CheckMyCases extends BaseTestCase {
 	
 	
 	

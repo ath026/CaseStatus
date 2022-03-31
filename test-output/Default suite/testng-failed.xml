@@ -6,7 +6,9 @@
       <class name="com.caseStatus.testCases.checkAsylum">
         <methods>
           <include name="Teardown"/>
+          <include name="checkAsyStatus"/>
           <include name="checkCaseProcessingTimes"/>
+          <include name="checkEadstatus"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.caseStatus.testCases.checkAsylum -->
