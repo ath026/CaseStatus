@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.caseStatus.testCases.checkAsylum">
+      <class name="com.caseStatus.testCases.CheckMyCases">
         <methods>
-          <include name="Teardown"/>
           <include name="checkAsyStatus"/>
-          <include name="checkCaseProcessingTimes"/>
-          <include name="checkEadstatus"/>
+          <include name="Teardown"/>
           <include name="setup"/>
+          <include name="checkEadstatus"/>
         </methods>
-      </class> <!-- com.caseStatus.testCases.checkAsylum -->
+      </class> <!-- com.caseStatus.testCases.CheckMyCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

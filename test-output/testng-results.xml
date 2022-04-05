@@ -1,76 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="0" failed="0" skipped="3">
+<testng-results ignored="2" total="4" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T08:28:19 CDT" name="Default suite" finished-at="2022-03-16T08:28:22 CDT" duration-ms="2144">
+  <suite started-at="2022-03-31T07:51:59 CDT" name="Default suite" finished-at="2022-03-31T07:52:02 CDT" duration-ms="2359">
     <groups>
     </groups>
-    <test started-at="2022-03-16T08:28:19 CDT" name="Default test" finished-at="2022-03-16T08:28:22 CDT" duration-ms="2144">
-      <class name="com.caseStatus.testCases.checkAsylum">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-03-16T08:28:19 CDT" name="setup" finished-at="2022-03-16T08:28:21 CDT" duration-ms="2048" status="FAIL">
+    <test started-at="2022-03-31T07:51:59 CDT" name="Default test" finished-at="2022-03-31T07:52:02 CDT" duration-ms="2359">
+      <class name="com.caseStatus.testCases.CheckMyCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStatus.testCases.CheckMyCases@4b0b0854]" started-at="2022-03-31T07:51:59 CDT" name="setup" finished-at="2022-03-31T07:52:02 CDT" duration-ms="2241" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 99.0.4844.84 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
+Ordinal0 [0x00D5FDC3+2555331]
+Ordinal0 [0x00CF77F1+2127857]
+Ordinal0 [0x00BF2E08+1060360]
+Ordinal0 [0x00C119CA+1186250]
+Ordinal0 [0x00C0D825+1169445]
+Ordinal0 [0x00C0AFC1+1159105]
+Ordinal0 [0x00C3C22F+1360431]
+Ordinal0 [0x00C3BE9A+1359514]
+Ordinal0 [0x00C37976+1341814]
+Ordinal0 [0x00C136B6+1193654]
+Ordinal0 [0x00C14546+1197382]
+GetHandleVerifier [0x00EF9622+1619522]
+GetHandleVerifier [0x00FA882C+2336844]
+GetHandleVerifier [0x00DF23E1+541697]
+GetHandleVerifier [0x00DF1443+537699]
+Ordinal0 [0x00CFD18E+2150798]
+Ordinal0 [0x00D01518+2168088]
+Ordinal0 [0x00D01660+2168416]
+Ordinal0 [0x00D0B330+2208560]
+BaseThreadInitThunk [0x7662FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BB7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BB7A4E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 99.0.4844.84 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
+Ordinal0 [0x00D5FDC3+2555331]
+Ordinal0 [0x00CF77F1+2127857]
+Ordinal0 [0x00BF2E08+1060360]
+Ordinal0 [0x00C119CA+1186250]
+Ordinal0 [0x00C0D825+1169445]
+Ordinal0 [0x00C0AFC1+1159105]
+Ordinal0 [0x00C3C22F+1360431]
+Ordinal0 [0x00C3BE9A+1359514]
+Ordinal0 [0x00C37976+1341814]
+Ordinal0 [0x00C136B6+1193654]
+Ordinal0 [0x00C14546+1197382]
+GetHandleVerifier [0x00EF9622+1619522]
+GetHandleVerifier [0x00FA882C+2336844]
+GetHandleVerifier [0x00DF23E1+541697]
+GetHandleVerifier [0x00DF1443+537699]
+Ordinal0 [0x00CFD18E+2150798]
+Ordinal0 [0x00D01518+2168088]
+Ordinal0 [0x00D01660+2168416]
+Ordinal0 [0x00D0B330+2208560]
+BaseThreadInitThunk [0x7662FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BB7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BB7A4E+238]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -130,70 +128,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkAsyStatus()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-03-16T08:28:21 CDT" name="checkAsyStatus" finished-at="2022-03-16T08:28:21 CDT" duration-ms="0" status="SKIP">
+        <test-method signature="checkAsyStatus()[pri:0, instance:com.caseStatus.testCases.CheckMyCases@4b0b0854]" started-at="2022-03-31T07:52:02 CDT" name="checkAsyStatus" finished-at="2022-03-31T07:52:02 CDT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 99.0.4844.84 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
+Ordinal0 [0x00D5FDC3+2555331]
+Ordinal0 [0x00CF77F1+2127857]
+Ordinal0 [0x00BF2E08+1060360]
+Ordinal0 [0x00C119CA+1186250]
+Ordinal0 [0x00C0D825+1169445]
+Ordinal0 [0x00C0AFC1+1159105]
+Ordinal0 [0x00C3C22F+1360431]
+Ordinal0 [0x00C3BE9A+1359514]
+Ordinal0 [0x00C37976+1341814]
+Ordinal0 [0x00C136B6+1193654]
+Ordinal0 [0x00C14546+1197382]
+GetHandleVerifier [0x00EF9622+1619522]
+GetHandleVerifier [0x00FA882C+2336844]
+GetHandleVerifier [0x00DF23E1+541697]
+GetHandleVerifier [0x00DF1443+537699]
+Ordinal0 [0x00CFD18E+2150798]
+Ordinal0 [0x00D01518+2168088]
+Ordinal0 [0x00D01660+2168416]
+Ordinal0 [0x00D0B330+2208560]
+BaseThreadInitThunk [0x7662FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BB7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BB7A4E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 99.0.4844.84 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
+Ordinal0 [0x00D5FDC3+2555331]
+Ordinal0 [0x00CF77F1+2127857]
+Ordinal0 [0x00BF2E08+1060360]
+Ordinal0 [0x00C119CA+1186250]
+Ordinal0 [0x00C0D825+1169445]
+Ordinal0 [0x00C0AFC1+1159105]
+Ordinal0 [0x00C3C22F+1360431]
+Ordinal0 [0x00C3BE9A+1359514]
+Ordinal0 [0x00C37976+1341814]
+Ordinal0 [0x00C136B6+1193654]
+Ordinal0 [0x00C14546+1197382]
+GetHandleVerifier [0x00EF9622+1619522]
+GetHandleVerifier [0x00FA882C+2336844]
+GetHandleVerifier [0x00DF23E1+541697]
+GetHandleVerifier [0x00DF1443+537699]
+Ordinal0 [0x00CFD18E+2150798]
+Ordinal0 [0x00D01518+2168088]
+Ordinal0 [0x00D01660+2168416]
+Ordinal0 [0x00D0B330+2208560]
+BaseThreadInitThunk [0x7662FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BB7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BB7A4E+238]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -253,193 +249,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAsyStatus -->
-        <test-method signature="checkCaseProcessingTimes()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-03-16T08:28:21 CDT" name="checkCaseProcessingTimes" finished-at="2022-03-16T08:28:21 CDT" duration-ms="0" status="SKIP">
+        <test-method signature="checkEadstatus()[pri:0, instance:com.caseStatus.testCases.CheckMyCases@4b0b0854]" started-at="2022-03-31T07:52:02 CDT" name="checkEadstatus" finished-at="2022-03-31T07:52:02 CDT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 99.0.4844.84 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
+Ordinal0 [0x00D5FDC3+2555331]
+Ordinal0 [0x00CF77F1+2127857]
+Ordinal0 [0x00BF2E08+1060360]
+Ordinal0 [0x00C119CA+1186250]
+Ordinal0 [0x00C0D825+1169445]
+Ordinal0 [0x00C0AFC1+1159105]
+Ordinal0 [0x00C3C22F+1360431]
+Ordinal0 [0x00C3BE9A+1359514]
+Ordinal0 [0x00C37976+1341814]
+Ordinal0 [0x00C136B6+1193654]
+Ordinal0 [0x00C14546+1197382]
+GetHandleVerifier [0x00EF9622+1619522]
+GetHandleVerifier [0x00FA882C+2336844]
+GetHandleVerifier [0x00DF23E1+541697]
+GetHandleVerifier [0x00DF1443+537699]
+Ordinal0 [0x00CFD18E+2150798]
+Ordinal0 [0x00D01518+2168088]
+Ordinal0 [0x00D01660+2168416]
+Ordinal0 [0x00D0B330+2208560]
+BaseThreadInitThunk [0x7662FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BB7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BB7A4E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 99.0.4844.84 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:189)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:176)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:131)
-at com.caseStatus.testCases.BaseTestCase.setup(BaseTestCase.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCaseProcessingTimes -->
-        <test-method signature="checkEadstatus()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-03-16T08:28:22 CDT" name="checkEadstatus" finished-at="2022-03-16T08:28:22 CDT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
-Current browser version is 99.0.4844.74 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'DESKTOP-M6GTC40', ip: '192.168.1.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x0028FDC3+2555331]
-Ordinal0 [0x002277F1+2127857]
-Ordinal0 [0x00122E08+1060360]
-Ordinal0 [0x001419CA+1186250]
-Ordinal0 [0x0013D825+1169445]
-Ordinal0 [0x0013AFC1+1159105]
-Ordinal0 [0x0016C22F+1360431]
-Ordinal0 [0x0016BE9A+1359514]
-Ordinal0 [0x00167976+1341814]
-Ordinal0 [0x001436B6+1193654]
-Ordinal0 [0x00144546+1197382]
-GetHandleVerifier [0x00429622+1619522]
-GetHandleVerifier [0x004D882C+2336844]
-GetHandleVerifier [0x003223E1+541697]
-GetHandleVerifier [0x00321443+537699]
-Ordinal0 [0x0022D18E+2150798]
-Ordinal0 [0x00231518+2168088]
-Ordinal0 [0x00231660+2168416]
-Ordinal0 [0x0023B330+2208560]
-BaseThreadInitThunk [0x761FFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77097A7E+286]
-RtlGetAppContainerNamedObjectPath [0x77097A4E+238]
-(No symbol) [0x00000000]
+Ordinal0 [0x00D5FDC3+2555331]
+Ordinal0 [0x00CF77F1+2127857]
+Ordinal0 [0x00BF2E08+1060360]
+Ordinal0 [0x00C119CA+1186250]
+Ordinal0 [0x00C0D825+1169445]
+Ordinal0 [0x00C0AFC1+1159105]
+Ordinal0 [0x00C3C22F+1360431]
+Ordinal0 [0x00C3BE9A+1359514]
+Ordinal0 [0x00C37976+1341814]
+Ordinal0 [0x00C136B6+1193654]
+Ordinal0 [0x00C14546+1197382]
+GetHandleVerifier [0x00EF9622+1619522]
+GetHandleVerifier [0x00FA882C+2336844]
+GetHandleVerifier [0x00DF23E1+541697]
+GetHandleVerifier [0x00DF1443+537699]
+Ordinal0 [0x00CFD18E+2150798]
+Ordinal0 [0x00D01518+2168088]
+Ordinal0 [0x00D01660+2168416]
+Ordinal0 [0x00D0B330+2208560]
+BaseThreadInitThunk [0x7662FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BB7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BB7A4E+238]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -499,11 +370,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEadstatus -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.caseStatus.testCases.checkAsylum@4b0b0854]" started-at="2022-03-16T08:28:22 CDT" name="Teardown" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1647437302009" status="SKIP">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.caseStatus.testCases.CheckMyCases@4b0b0854]" started-at="2022-03-31T07:52:02 CDT" name="Teardown" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1648731122130" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-      </class> <!-- com.caseStatus.testCases.checkAsylum -->
+      </class> <!-- com.caseStatus.testCases.CheckMyCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

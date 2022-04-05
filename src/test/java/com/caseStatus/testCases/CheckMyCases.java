@@ -15,27 +15,27 @@ public class CheckMyCases extends BaseTestCase {
 	@Test
 	public void checkAsyStatus() {
 		CaseStatusLanding landing=new CaseStatusLanding(driver);
-		landing.receiptInputBox.sendKeys("ZSF1500101050");
+		landing.receiptInputBox.sendKeys("0101050");
 		landing.checkStatus.click();		
 		
-		text+="***************I-589*******************\n";
+		text+="**********************************\n";
 		text+=landing.result.getText()+"\n\n";
 	
 	}
 	@Test(enabled=false)
-	public void checkTpsstatus() {
+	public void checkTpsStat() {
 		CaseStatusLanding landing=new CaseStatusLanding(driver);
-		landing.receiptInputBox.sendKeys("IOE0913178311");
+		landing.receiptInputBox.sendKeys("13178311");
 		landing.checkStatus.click();		
 		text+="****************I-821******************\n";
 		text+=landing.result.getText()+"\n\n";
 	}
 	@Test
-	public void checkEadstatus() {
+	public void checkCaseWP() {
 		CaseStatusLanding landing=new CaseStatusLanding(driver);
-		landing.receiptInputBox.sendKeys("IOE0911167343");
+		landing.receiptInputBox.sendKeys("0911167343");
 		landing.checkStatus.click();		
-		text+="****************I-765*****************\n";
+		text+="*********************************\n";
 		text+=landing.result.getText()+"\n\n";
 	}
 	
@@ -54,7 +54,7 @@ public class CheckMyCases extends BaseTestCase {
 		wait.until(ExpectedConditions.visibilityOf(ptp.runningdate));
 		String running=ptp.runningdate.getText();
 		text+="*****Potomac Processing***************\n";
-		text+="Based on a pending asylum: "+running+"\n\n";
+		text+="Based on a pending case:A: "+running+"\n\n";
 		driver.navigate().to("https://egov.uscis.gov/casestatus/landing.do");
 	}
 
