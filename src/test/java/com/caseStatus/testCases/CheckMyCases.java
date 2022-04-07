@@ -30,7 +30,7 @@ public class CheckMyCases extends BaseTestCase {
 		text+="****************I-821******************\n";
 		text+=landing.result.getText()+"\n\n";
 	}
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void checkCaseWP() {
 		CaseStatusLanding landing=new CaseStatusLanding(driver);
 		landing.receiptInputBox.sendKeys("0911167343");
