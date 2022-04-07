@@ -15,7 +15,7 @@ public class CheckMyCases extends BaseTestCase {
 	@Test
 	public void checkAsyStatus() {
 		CaseStatusLanding landing=new CaseStatusLanding(driver);
-		landing.receiptInputBox.sendKeys("0101050");
+		landing.receiptInputBox.sendKeys("ZSF1500101050");
 		landing.checkStatus.click();		
 		
 		text+="**********************************\n";
